@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rest Countries</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Where in the World?</h1>
+      <button class="toggle"><i class="far fa-moon moon"></i> Dark Mode</button>
+    </div>
+    <div class="container">
+      <div class="form-control">
+        <input type="text" class="search" placeholder="Search For Country" />
+        <i class="fas fa-search search"></i>
+      </div>
+      <div class="dropDownCon">
+        <div class="dropDown">
+          <p>Filter By Region</p>
+          <button><i class="fas fa-chevron-down"></i></button>
+        </div>
+        <div class="drop showDropDown">
+          <p class="region">All</p>
+          <p class="region">Africa</p>
+          <p class="region">America</p>
+          <p class="region">Asia</p>
+          <p class="region">Europe</p>
+          <p class="region">Australia</p>
+        </div>
+      </div>
+    </div>
+    <div class="countries">
+      <!-- <div class="country">
+        <div class="country-img">
+          <img src="" alt="" />
+        </div>
+        <div class="country-info">
+          <h5>Germany</h5>
+          <p><strong>Population:</strong> 1234000</p>
+          <p><strong>Region:</strong> Europe</p>
+          <p><strong>Capital:</strong> Berlin</p>
+        </div>
+      </div> -->
+
+      <!-- <div class="country">
+        <div class="country-img">
+          <img src="" alt="" />
+        </div>
+        <div class="country-info">
+          <h5>Germany</h5>
+          <p><strong>Population:</strong> 1234000</p>
+          <p><strong>Region:</strong> Europe</p>
+          <p><strong>Capital:</strong> Berlin</p>
+        </div>
+      </div>
+      <div class="country">
+        <div class="country-img">
+          <img src="" alt="" />
+        </div>
+        <div class="country-info">
+          <h5>Germany</h5>
+          <p><strong>Population:</strong> 1234000</p>
+          <p><strong>Region:</strong> Europe</p>
+          <p><strong>Capital:</strong> Berlin</p>
+        </div>
+      </div> -->
+    </div>
+    <div class="countryModal show">
+      <!-- <button class="back">Back</button>
+      <div class="modal">
+        <div class="leftModal">
+          <img src="" alt="" />
+        </div>
+        <div class="rightModal">
+          <h1>Germany</h1>
+         <div class="modalInfo">
+            <div class="innerLeft inner">
+                <p><strong>Native Name:</strong>${data.population}</p>
+                <p><strong>Population:</strong>${data.population}</p>
+                <p><strong>Region:</strong>${data.region}</p>
+                <p><strong>Sub-region:</strong> ${data.capital}</p>
+              </div>
+              <div class="innerRight inner">
+                <p><strong>Capital</strong>${data.population}</p>
+                <p><strong>Currencies:</strong>${data.region}</p>
+                <p><strong>Top Level Domains:</strong> ${data.capital}</p>
+                <p><strong>Languages:</strong> ${data.capital}</p>
+              </div>
+         </div>
+        </div>
+      </div>
+     </div> -->
+    </div>
+    <script src="java.js"></script>
+  </body>
+</html>
